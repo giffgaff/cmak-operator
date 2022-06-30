@@ -11,6 +11,8 @@ spec:
       {{- include "cmak.selectorLabels" . | nindent 6 }}
   template:
     metadata:
+      annotations:
+        sidecar.istio.io/inject: "{{ .Values.istio_inject }}"
       labels:
         {{- include "cmak.labels" . | nindent 8 }}
     spec:

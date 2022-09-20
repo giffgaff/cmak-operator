@@ -132,7 +132,7 @@ zk:
     #   memory: 128Mi
 
 # uncomment section and remove null to create Ingress resource
-ingress: null
+ingress:
   ingressClassName: nginx
   # # ingress host
   # host: www.cmak.mycompany

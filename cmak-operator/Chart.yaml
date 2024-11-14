@@ -27,7 +27,7 @@ keywords:
   - monitoring
   - streaming
 
-#dependencies:
-#  - name: istio-virtualservice
-#    version: 0.1.4
-#    repository: s3://giffgaff-charts
+dependencies:
+  - name: istio-virtualservice
+    version: 0.1.4
+    repository: s3://giffgaff-charts

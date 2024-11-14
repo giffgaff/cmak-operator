@@ -3,7 +3,7 @@ name: cmak-operator
 description: Manage and vizualize Kafka clusters with CMAK (prev. Kafka Manager).
 icon: https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg
 type: application
-version: 0.0.3 # actual chart version is managed by git tags
+version: 0.0.4 # actual chart version is managed by git tags
 appVersion: 0.0.0
 
 home: https://github.com/eshepelyuk/cmak-operator
@@ -27,7 +27,7 @@ keywords:
   - monitoring
   - streaming
 
-#dependencies:
-#  - name: istio-virtualservice
-#    version: 0.1.4
-#    repository: s3://giffgaff-charts
+dependencies:
+  - name: istio-virtualservice
+    version: 0.1.4
+    repository: s3://giffgaff-charts

@@ -24,7 +24,6 @@
 
 venv
 .venv
-*.tgz
 .github
 *.py
 *.txt

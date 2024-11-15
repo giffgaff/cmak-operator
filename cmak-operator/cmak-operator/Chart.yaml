@@ -3,7 +3,7 @@ name: cmak-operator
 description: Manage and vizualize Kafka clusters with CMAK (prev. Kafka Manager).
 icon: https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg
 type: application
-version: 0.0.8 # actual chart version is managed by git tags
+version: 0.0.9 # actual chart version is managed by git tags
 appVersion: 0.0.0
 
 home: https://github.com/eshepelyuk/cmak-operator
@@ -28,9 +28,6 @@ keywords:
   - streaming
 
 dependencies:
-  - name: prometheus-node-exporter
-    version: "4.39.*"
-    repository: https://prometheus-community.github.io/helm-charts
-#  - name: istio-virtualservice
-#    version: 0.1.4
-#    repository: s3://giffgaff-charts
+  - name: istio-virtualservice
+    version: 0.1.4
+    repository: s3://giffgaff-charts

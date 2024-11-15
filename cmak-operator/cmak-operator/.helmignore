@@ -40,4 +40,5 @@ package.json
 .dockerignore
 test/
 justfile
+cronjob-reconcile.yaml
 

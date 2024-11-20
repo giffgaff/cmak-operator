@@ -133,6 +133,7 @@ zk:
 
 # uncomment section and remove null to create Ingress resource
 ingress:
+  enabled: false
   ingressClassName: nginx
   # # ingress host
   # host: www.cmak.mycompany

@@ -41,24 +41,24 @@ cmak:
 
   clusters: []
 
-#reconcile:
-#  image:
-#    repository: "ghcr.io/eshepelyuk/dckr/cmak2zk"
-#    tag: "1.0.0"
-#    pullPolicy: IfNotPresent
-#  schedule: "*/3 * * * *"
-#  overwriteZk: true
-#  successfulJobsHistoryLimit: null
-#  failedJobsHistoryLimit: null
-#  annotations: {}
-  # resource configuration
-  # resources:
-  #   limits:
-  #     cpu: 100m
-  #     memory: 128Mi
-  #   requests:
-  #     cpu: 100m
-  #     memory: 128Mi
+reconcile:
+  image:
+    repository: "ghcr.io/eshepelyuk/dckr/cmak2zk"
+    tag: "1.0.0"
+    pullPolicy: IfNotPresent
+  schedule: "*/3 * * * *"
+  overwriteZk: true
+  successfulJobsHistoryLimit: null
+  failedJobsHistoryLimit: null
+  annotations: {}
+#   resource configuration
+#   resources:
+#     limits:
+#       cpu: 100m
+#       memory: 128Mi
+#     requests:
+#       cpu: 100m
+#       memory: 128Mi
 
 # various settings for CMAK UI container and CMAK application
 ui:
